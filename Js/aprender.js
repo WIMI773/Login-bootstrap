@@ -41,20 +41,22 @@ for(let i= 0; i< array_string.length; i++) {
     
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-    const form = document.querySelector("form");
 
-    form.addEventListener("submit", function (event) {
+    document.addEventListener("DOMContentLoaded", function () {
+      const form = document.querySelector("form");
+
+      form.addEventListener("submit", function (event) {
         event.preventDefault(); // Evita que se recargue la página
 
         // Mostrar la alerta de SweetAlert2
         Swal.fire({
-            icon: "error",
-            title: "Oops...",
-            text: "Datos incorrectos",
-            footer: '<a href="#">Why do I have this issue?</a>'
+          title: "¡Bienvenido!",
+          text: "Has entrado correctamente.",
+          icon: "success",
+          confirmButtonText: "Aceptar"
         });
+      });
     });
-});
+  
 
 
