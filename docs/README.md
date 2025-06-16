@@ -19,19 +19,18 @@ Este es un proyecto simple de formulario de inicio de sesión utilizando **HTML*
 ![login-preview](./img/registro.png)  
 
 
+
 ## 📁 Estructura del proyecto
 
-PROYECTO_W/
+/
 │
 ├── css/
 │ ├── principal.css # Estilos principales personalizados pagina principal
 │ └── styles.css # Estilos adicionales o generales
-│
 ├── html/
 │ ├── login.html # Página de registro de usuarios
 │ ├── pagina_prin.html # Página principal después del login
 │ └── Recuperar.html # Página para recuperación de contraseña
-│
 ├── img/ # Imágenes utilizadas en la interfaz
 │
 ├── Js/
