@@ -2,7 +2,7 @@
 
 # Finalidad del Proyecto
 
-Este es un proyecto simple de formulario de inicio de sesión utilizando **HTML**, **Bootstrap 5** y **SweetAlert2** para mostrar alertas elegantes. Es ideal como plantilla para proyectos web básicos con diseño responsive y validaciones visuales.
+Este es un proyecto simple de formulario de inicio de sesión utilizando **HTML**, **Bootstrap 5** y **SweetAlert2** para mostrar alertas elegantes. Es ideal como plantilla para proyectos web básicos con diseño responsive y validaciones visuales. Este proyecto cuenta con 3 sesiones, Inicio de Sesion, Recuperar contraseña y el registro. Cuenta con una interfaz grafica sencilla y facil de usar para el usuario, con colores llamativos e intuitivos.
 
 ## 🔧 Tecnologías utilizadas
 
