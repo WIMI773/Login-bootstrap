@@ -18,29 +18,25 @@ Este es un proyecto simple de formulario de inicio de sesión utilizando **HTML*
 ![login-preview](./img/recuperar.png)
 ![login-preview](./img/registro.png)  
 
-
+---
 
 ## 📁 Estructura del proyecto
 
+```plaintext
 /
-│
-├── css/
-│ ├── principal.css # Estilos principales personalizados pagina principal
-│ └── styles.css # Estilos adicionales o generales
+├── index.html                # Página principal de Login
 ├── html/
-│ ├── login.html # Página de registro de usuarios
-│ ├── pagina_prin.html # Página principal después del login
-│ └── Recuperar.html # Página para recuperación de contraseña
-├── img/ # Imágenes utilizadas en la interfaz
-│
-├── Js/
-│ ├── aprender.js # Funcionalidades adicionales (educativas u opcionales)
-│ ├── login.js # Lógica del formulario de login con validaciones y alertas
-│
-├── index.html # Página de incio de sesion
-└── README.md # Documentación del proyecto (este archivo)
-
-
+│   ├── registro.html         # Formulario para registrar usuarios nuevos
+│   ├── recuperar.html        # Vista para recuperación de contraseña
+│   └── pagina_ppal.html      # Vista principal para usuario logueado
+├── css/
+│   └── estilos.css           # Hoja de estilos externa común a todas las páginas
+└── js/
+    ├── login.js              # Script que contiene lógica del login
+    ├── recuperar.js          # Script que contiene lógica para recuperar contraseña
+    └── token_email.js        # Script para conectar email con recuperar contraseña
+```
+---
 
 ## 🚀 Funcionalidades
 
