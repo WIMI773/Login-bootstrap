@@ -19,8 +19,10 @@ Este es un proyecto simple de formulario de inicio de sesión utilizando **HTML*
 ![login-preview](./img/registro.png)  
 
 
+
 ## 📁 Estructura del proyecto
 
+```plaintext
 PROYECTO_W/
 │
 ├── css/
@@ -40,7 +42,7 @@ PROYECTO_W/
 │
 ├── index.html # Página de incio de sesion
 └── README.md # Documentación del proyecto (este archivo)
-
+```
 
 
 ## 🚀 Funcionalidades
