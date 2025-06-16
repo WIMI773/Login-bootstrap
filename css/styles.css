@@ -1,0 +1,32 @@
+body {
+  background-image: url(./img/canasta.jpg); /* Asegúrate que la imagen esté en tu proyecto */
+  background-size: cover;            /* Hace que la imagen cubra toda la pantalla */
+  background-repeat: no-repeat;      /* Evita que la imagen se repita */
+
+}
+
+/* Overlay oscuro */
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Ajusta el 0.5 para más o menos oscuridad */
+  z-index: -1;
+}
+
+.card-bodydos {
+  background-color: rgba(255, 255, 255, 0.8); /* Blanco con transparencia */
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-bodytres {
+  background-color: rgba(255, 255, 255, 0.8); /* Blanco con transparencia */
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}

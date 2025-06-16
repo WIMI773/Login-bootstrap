@@ -1,0 +1,109 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header img {
+    height: 50px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  .carousel {
+    display: flex;
+    overflow: hidden;
+    max-height: 300px;
+  }
+  
+  .carousel img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .ofertas {
+    padding: 20px;
+  }
+  
+  .ofertas h2 {
+    margin-bottom: 30px;
+    color: #2e7d32;
+  }
+  
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .producto {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: calc(33.333% - 20px);
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .producto img {
+    width: 150px;
+    height: 300px;
+    
+    
+  }
+  
+  
+    
+  
+  
+  .producto p {
+    color: #777;
+  }
+  
+  footer {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .producto {
+      width: 100%;
+    }
+  
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+  
+    nav a {
+      margin: 5px 0;
+    }
+  }
+  
+  
+  
